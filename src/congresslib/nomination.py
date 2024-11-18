@@ -1,4 +1,4 @@
-from py_congress.base import BaseCongress
+from .base import BaseCongress
 from .setting import (DEFAULT_LIMIT)
 from .utils import *
 from typing import Dict, Optional, List, TYPE_CHECKING
