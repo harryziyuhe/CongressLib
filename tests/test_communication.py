@@ -1,7 +1,7 @@
 import pytest
 from unittest.mock import patch
-from congresssdk.communication import Communication
-from congresssdk.main import PyCongress
+from congresslib.communication import Communication
+from congresslib.main import PyCongress
 
 @pytest.fixture
 def client():
