@@ -1,6 +1,6 @@
-# PyCongress
+# CongressLib
 
-PyCongress is a Python client library for interacting with the Congress.gov API. It provides a simple and intuitive interface for retrieving legislative data such as bills, amendments, treaties, committee activities, congressional records, and more. This library is designed for researchers, developers, and anyone interested in programmatically accessing Congress.gov data.
+CongressLib is a Python client library for interacting with the Congress.gov API. It provides a simple and intuitive interface for retrieving legislative data such as bills, amendments, treaties, committee activities, congressional records, and more. This library is designed for researchers, developers, and anyone interested in programmatically accessing Congress.gov data.
 
 ---
 
