@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "CongressSDK"
+name = "CongressLib"
 version = "0.1.0"
 description = "A Python wrapper for the Congress.gov API."
 authors = [

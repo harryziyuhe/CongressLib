@@ -57,7 +57,7 @@ apikey=your_congress_api_key
 ### Example Usage
 
 ```python
-from py_congress import PyCongress
+from congresslib import PyCongress
 
 # Initialize the client
 client = PyCongress(apikey="your_api_key")
