@@ -1,7 +1,7 @@
 import pytest
 from unittest.mock import patch
-from py_congress.committee import Committee
-from py_congress.main import PyCongress
+from congresssdk.committee import Committee
+from congresssdk.main import PyCongress
 
 @pytest.fixture
 def client():
@@ -100,7 +100,7 @@ def test_invalid_chamber_type(mock_get, client):
     """
     mock_get.return_value.status_code = 200
     mock_get.return_value.json.return_value = {"committees: []"}
-    
+
     with pytest.raises(ValueError):
         client.get_committee_list(chamber="invalid")
 

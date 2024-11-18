@@ -1,15 +1,15 @@
 import pytest
-from py_congress.main import PyCongress
-from py_congress.amendment import Amendment
-from py_congress.bill import Bill
-from py_congress.committee import Committee
-from py_congress.communication import Communication
-from py_congress.congress import Congress
-from py_congress.member import Member
-from py_congress.nomination import Nomination
-from py_congress.record import Record
-from py_congress.summary import Summary
-from py_congress.treaty import Treaty
+from congresssdk.main import PyCongress
+from congresssdk.amendment import Amendment
+from congresssdk.bill import Bill
+from congresssdk.committee import Committee
+from congresssdk.communication import Communication
+from congresssdk.congress import Congress
+from congresssdk.member import Member
+from congresssdk.nomination import Nomination
+from congresssdk.record import Record
+from congresssdk.summary import Summary
+from congresssdk.treaty import Treaty
 
 @pytest.fixture
 def client():
