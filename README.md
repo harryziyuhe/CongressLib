@@ -26,14 +26,14 @@ CongressLib is a Python client library for interacting with the Congress.gov API
 Install the package using pip:
 
 ```bash
-pip install py-congress
+pip install CongressLib
 ```
 
 Or, clone the repository and install it manually:
 
 ```bash
-git clone https://github.com/harryziyuhe/py-congress.git
-cd py-congress
+git clone https://github.com/harryziyuhe/CongressLib.git
+cd CongressLib
 pip install .
 ```
 
